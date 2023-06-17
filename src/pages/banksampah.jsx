@@ -22,6 +22,165 @@ import Yakin from './yakin';
 function BankSampah(){
    return(
       <main className="main">
+        <section className="home" id="home">
+          <div className="home__vidcontainer">
+            <img
+              src={Herobg}
+              alt=""
+              className="home__vid"
+            />
+            <div className="home__overlay" />
+          </div>
+          <div className="home__container container grid">
+            <div className="home__data">
+              <h1 className="home__data-title center">
+                Apa itu <b>Re-Cycler?</b>
+              </h1>
+              <h3 className="home__data-subtitle">
+                Re-Cycle. dari UpCycle. merupakan fitur utama yang membahas
+                tentang Bank Sampah dimana fitur ini bertujuan untuk memperbaiki
+                lingkungan melalui optimalisasi sampah dan mengurangi dampak
+                negatif sampah. Fitur ini memberikan pengetahuan tentang
+                pengolahan sampah menjadi bahan yang bermanfaat bagi masyarakat
+                dan lingkungan.
+              </h3>
+              <a href="./setorSampah.jsx" className="button-center">
+                Setor Sampahmu
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section className="sampah section" id="sampah">
+          <div className="sampah__container container">
+            <div className="sampah__data">
+              <h1 className="section__title sampah__title center">
+                Mari Mengenal Jenis-Jenis Sampah
+              </h1>
+              <div className="baris">
+                <div className="card">
+                  <img
+                    src={image_16}
+                    alt="Sampah Daur Ulang"
+                    style={{
+                      marginTop: "40px",
+                      width: "auto",
+                      height: "160px",
+                    }}
+                  />
+                  <div className="info-container">
+                    <div className="card__title">
+                      <b>Sampah Daur Ulang</b>
+                    </div>
+                    <p className="card__description">
+                      Sampah daur ulang dapat dibagi menjadi kertas, plastik,
+                      logam, kaca, dan tekstil yang dapat diproses kembali
+                      menjadi bahan baku baru.
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src={pngtreegarbage_can_with_waste_vector7346990_1}
+                    alt="Sampah Daur Ulang"
+                    style={{ padding: "0 0", height: "200px" }}
+                  />
+                  <div className="info-container">
+                    <div className="card__title">
+                      <b>Sampah Dapur</b>
+                    </div>
+                    <p className="card__description">
+                      Sampah dapur adalah jenis sampah organik yang berasal dari
+                      sisa makanan, sayuran, buah-buahan, dan bahan makanan
+                      lainnya yang dapat terurai secara alami melalui proses
+                      kompos.
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src={image_17}
+                    alt="Sampah Daur Ulang"
+                    style={{ marginTop: "20px", height: "180px" }}
+                  />
+                  <div className="info-container">
+                    <div className="card__title">
+                      <b>Sampah Barang Bekas</b>
+                    </div>
+                    <p className="card__description">
+                      Sampah barang bekas adalah jenis sampah non-organik berupa
+                      barang-barang elektronik, perlengkapakan rumah tangga, dan
+                      lainnya.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="baris">
+                <div className="card">
+                  <img
+                    src={image_18}
+                    alt="Sampah Daur Ulang"
+                    style={{
+                      marginTop: "40px",
+                      width: "auto",
+                      height: "160px",
+                    }}
+                  />
+                  <div className="info-container">
+                    <div className="card__title">
+                      <b>Sampah Furniture</b>
+                    </div>
+                    <p className="card__description">
+                      Sampah furniture adalah jenis sampah yang meliputi
+                      barang-barang seperti meja, kursi, lemari, dan perabotan
+                      rumah tangga lainnya namun sudah rusak atau tidak
+                      terpakai.
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src={Group_127}
+                    alt="Sampah Daur Ulang"
+                    style={{
+                      padding: "50px 0",
+                      maxWidth: "200px",
+                      maxHeight: "200px",
+                    }}
+                  />
+                  <div className="info-container">
+                    <div className="card__title">
+                      <b>Sampah Puing</b>
+                    </div>
+                    <p className="card__description">
+                      Sampah Puing adalah jenis sampah yang terdiri dari
+                      sisa-sisa bangunan atau konstruksi yang rusak atau
+                      dirobohkan atau pengerukan.
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src={image_19}
+                    alt="Sampah Daur Ulang"
+                    style={{ marginTop: "20px", height: "180px" }}
+                  />
+                  <div className="info-container">
+                    <div className="card__title">
+                      <b>Sampah Alam</b>
+                    </div>
+                    <p className="card__description">
+                      Sampah alam adalah jenis sampah yang berasal dari
+                      bahan-bahan organik yang terurai secara alami, seperti
+                      daun, ranting, atau sisa-sisa tumbuhan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
       </main>
     )
