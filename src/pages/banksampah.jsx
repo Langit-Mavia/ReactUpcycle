@@ -181,7 +181,79 @@ function BankSampah(){
           </div>
         </section>
 
+        <section className="about section" id="about">
+          <div className="about__container container grid">
+            <div className="about__data">
+              <h2 className="section__title about__title">
+                Apa Sih Manfaat dari Mengelola Sampah?
+              </h2>
+              <p className="about__description">
+                Mengelola sampah dapat mengurangi polusi, emisi gas rumah kaca,
+                dan penggunaan sumber daya alam, serta memberikan manfaat
+                finansial dari sampah yang masih bernilai ekonomi seperti
+                kertas, logam, dan plastik. Sebagai perusahaan Bank Sampah
+                kekinian, UpCycle berkomitmen menjaga lingkungan dengan
+                Re-Cycler, fitur Bank Sampah inovatif yang memudahkan masyarakat
+                memilah dan menjual sampah bernilai ekonomi ke UpCycle.
+              </p>
+            </div>
+            <div className="about__img">
+              <div className="about__img-overlay">
+                <img
+                  src={manfaat1}
+                  alt=""
+                  className="about__img-one"
+                />
+              </div>
+              <div className="about__img-overlay">
+                <img
+                  src={manfaat2}
+                  alt=""
+                  className="about__img-two"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
+        <section className="about section" id="manfaat">
+          <div className="about__container container grid">
+            <div className="about__img">
+              <div className="about__img-overlay">
+                <img
+                  src={bank1}
+                  alt=""
+                  className="about__img-one"
+                />
+              </div>
+              <div className="about__img-overlay">
+                <img
+                  src={bank2}
+                  alt=""
+                  className="about__img-two"
+                />
+              </div>
+            </div>
+            <div className="about__data">
+              <h2 className="section__title about__title">
+                Apa Sih Manfaat dari Mengelola Sampah?
+              </h2>
+              <p className="about__description">
+                Mengelola sampah dapat mengurangi polusi, emisi gas rumah kaca,
+                dan penggunaan sumber daya alam, serta memberikan manfaat
+                finansial dari sampah yang masih bernilai ekonomi seperti
+                kertas, logam, dan plastik. Sebagai perusahaan Bank Sampah
+                kekinian, UpCycle berkomitmen menjaga lingkungan dengan
+                Re-Cycler, fitur Bank Sampah inovatif yang memudahkan masyarakat
+                memilah dan menjual sampah bernilai ekonomi ke UpCycle.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <Eduvid />
+        <Yakin />
+        <Sponsor  />
       </main>
     )
 }
