@@ -67,7 +67,76 @@ const Profile = ({user, setUser}) => {
 
   return (
     <main className="main">
-
+      {/*==================== PROFILE ====================*/}
+      <section className="profile__profile">
+        <div className="profile__container">
+          <div className="profile__card profile__card-left">
+            <img
+              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1.jpg"
+              alt="Foto profil"
+              className="profile__img"
+            />
+          </div>
+          <div className="profile__card profile__card-right profile__card-big">
+            <h2 className="center">Update Profile</h2>
+            <form onSubmit={handleFormSubmit} id="updatedata__form">
+              <label htmlFor="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                defaultValue={user? user.username: ''}
+              />
+              <label htmlFor="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                defaultValue={user? user.email: ''}
+              />
+              <label htmlFor="password">New Password:</label>
+              <input
+                type="password"
+                className="password"
+                name="password"
+              />
+              <label htmlFor="confirm-password">Confirm Password:</label>
+              <input
+                type="password"
+                className="confirm-password"
+                name="confirm-password"
+              />
+              <label htmlFor="gender">Gender:</label>
+              <select id="gender" name="gender" defaultValue={user? user.gender: ''}>
+                <option value="male">Laki-laki</option>
+                <option value="female">Perempuan</option>
+              </select>
+              <button id="save-btn" type="submit">Save</button>
+            </form>
+          </div>
+          <div className="profile__card">
+            <button
+              className="profile__button"
+              onClick={() => console.log("Navigate to UpWallet")}
+            >
+              UpWallet.
+            </button>
+            <button
+              className="profile__button"
+              onClick={() => console.log("Navigate to UpChallenge")}
+            >
+              UpChallenge
+            </button>
+            <button
+              className="profile__button button1"
+              onClick={() => console.log("Sign Out")}
+            >
+              Sign Out
+            </button>
+          </div>
+        </div>
+        <div className="maps__overlay" />
+      </section>
     </main>
   );
 };
