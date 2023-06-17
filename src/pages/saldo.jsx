@@ -124,6 +124,9 @@ const Saldo = () => {
             </div>
           </div>
         </section>
+        <Eduvid />
+        <Yakin />
+        <Sponsor />
       </main>
     </>
   );
