@@ -7,7 +7,32 @@ const Sponsor = () => {
     return (
         <>
         {/*==================== SPONSORS ====================*/}
-        
+        <section className="sponsor section">
+          <div className="sponsor__container container grid">
+            <div className="sponsor__content">
+              <img
+                src={sponsors1}
+                alt=""
+                className="sponsor__img"
+              />
+            </div>
+            <div className="sponsor__content">
+              <img
+                src={sponsors2}
+                alt=""
+                className="sponsor__img"
+              />
+            </div>
+            <div className="sponsor__content">
+              <img
+                src={sponsors3}
+                alt=""
+                className="sponsor__img"
+              />
+            </div>
+            <img src={logo} className="footer__img" />
+          </div>
+        </section>
         </>
     )
 }
