@@ -20,8 +20,41 @@ const Saldo = () => {
   return (
     <>
       <main className="main">
-        
-      </main>
+        {/*==================== HOME ====================*/}
+        <section className="home section" id="home">
+          <div className="home__vidcontainer">
+            <img
+              src={Frame_2012}
+              alt=""
+              className="home__vid"
+            />
+            <div className="home__overlay" />
+          </div>
+          <div className="ss-bagian1">
+            <img
+              src={Frame_2050}
+              alt="Setor Sampah"
+              style={{ marginLeft: "-50px" }}
+            />
+            <div className="bg1">
+              <div>
+                <div>Ballance :</div>
+                <div>Rp. 10.000,00</div>
+                <br />
+                <div>Catatan :</div>
+                <div>
+                  1. Saldo Berlaku Selama Masih Menjadi Anggota Bank Sampah
+                  UpCycle
+                </div>
+                <div>2. Pencairan Saldo Minimum Rp. 50.000,-</div>
+                <br />
+              </div>
+              <button className="buttonsecondmaps" onClick={() => navigate("/tukarsaldo")}>Tukar Saldo</button>
+            </div>
+          </div>
+        </section>
+        <Mission />
+              </main>
     </>
   );
 }
